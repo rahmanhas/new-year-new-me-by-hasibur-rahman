@@ -49,6 +49,41 @@
     border-radius: 5px;
     border-style: none;
     padding: 15px;
-
-
+}
+.failure{
+    height: 100vh;
+    display: flex;
+    background-color: white;
+}
+.failure-image{
+    padding-top: 100px;
+}
+.failure-blog{
+    text-align: left;
+    padding-top: 350px;
+    padding-left: 50px;
+}
+.failure-title{
+    font-weight: 700;
+    font-size: 50px;
+    padding-right: 60%;
+    padding-bottom: 20px;
+}
+.failure-description{
+    text-align: left;
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 73%;
+}
+ 
+.failure-why{
+    list-style:none;
+    font-size: 15px;
+    
+}
+li.reasons:before{
+    content: "\2713"; 
+    color: green;
 }
