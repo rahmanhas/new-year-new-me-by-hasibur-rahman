@@ -28,12 +28,13 @@
 .top-description{
     text-align: right;
     font-style: normal;
+    line-height: 1.5em;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 12px;
     padding-top: 10px;
     padding-bottom: 30px;
     padding-right: 15%;
-    padding-left: 65%; 
+    padding-left: 67%; 
 
 }
 .button-primary{
@@ -51,39 +52,77 @@
     padding: 15px;
 }
 .failure{
+    background-color: white;
     height: 100vh;
     display: flex;
-    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
 }
 .failure-image{
     padding-top: 100px;
+    padding-left: 20%;
+    margin: auto;
+    width:300px;
 }
 .failure-blog{
     text-align: left;
     padding-top: 350px;
-    padding-left: 50px;
+    padding-left: 20%;
+    margin: auto;
+    width: 1000px;
+
 }
 .failure-title{
     font-weight: 700;
-    font-size: 50px;
+    font-size: 40px;
     padding-right: 60%;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 .failure-description{
-    text-align: left;
+
     font-weight: 400;
     font-size: 15px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 73%;
+    line-height: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 60%;
 }
  
 .failure-why{
     list-style:none;
     font-size: 15px;
+    line-height: 30px;
     
 }
 li.reasons:before{
     content: "\2713"; 
     color: green;
+}
+.my-plan{
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.my-plan > h2{
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+}
+.whole-plan{
+    display:flex;
+    gap: 100px;
+    justify-content: center;
+    padding-top: 20px;
+}
+.plan > h3{
+    padding-top: 20px;
+    font-size: 35px;
+}
+.plan > p{
+    font-size: 22px;
+    color: #737272;
+    padding-top: 10px;
 }
