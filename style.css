@@ -1,7 +1,8 @@
+/* Below '*' is used to change the default margin and padding to 0. */
 *{
     margin: 0;
     padding: 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .top-portion{
     background-image: url('./images/banner/banner2.png');
@@ -12,12 +13,12 @@
 .top-part{
     width: 100%;
     height: 100vh;
-    display: flex;
+    display: flex; /* Flex is used to take everything to right side for the challenge. */
     flex-direction: column;
     align-items: flex-end;
     align-content: center;
     justify-content: center;
-    margin-left: -200px;
+    margin-left: -200px; /* This is used to create some space in the right side of the header */
 
 }
 .top-title{
@@ -26,17 +27,13 @@
     text-align: right;
     font-weight: 700;
     font-size: 65px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    text-align: right;
+    padding: 15px;
 }
 .top-description{
     width: 550px;
     height: 65px;
     text-align: right;
-    font-style: normal;
     line-height: 1.5em;
-    font-weight: 400;
     font-size: 20px;
     padding-top: 15px;
     padding-bottom: 45px;
@@ -49,18 +46,17 @@
     color: white;
     font-weight: 600;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 1.5em;
     border-radius: 5px;
     border-style: none;
     padding: 5px 5px;
 }
 .failure{
-    background-color: #ffffff;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin:auto;
+    margin: auto;
     gap: 50px;
 }
 .failure-image{
@@ -88,20 +84,18 @@
 }
 .failure-description{
     height: 100px;
-    font-weight: 400;
     font-size: 15px;
     line-height: 1.5em;
     padding-top: 15px;
     padding-right: 550px;
 }
-
 .failure-why{
     list-style:none;
     font-size: 15px;
     line-height: 2em;
 }
 li.reasons:before{
-    content: "\2714  "; 
+    content: "\2714  "; /* I found how to use check mark in unordered list using google. Still it looks a bit different than assignment one. I tried using font awesome but they have only one free check mark and the one I used looks analogous m*/ 
     color: #4bbc7f;
 
     padding-right: 10px;
@@ -136,7 +130,7 @@ li.reasons:before{
 .banner{
     width:65%;
     height: 30vh;
-    background-image: linear-gradient(to right, #f15b22, #ffffff00), url("./images/watch.png");
+    background-image: linear-gradient(to right, #f15b22, #ffffff00), url("./images/watch.png");/* Challenge to use color gradient is Completed  */
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
@@ -144,10 +138,7 @@ li.reasons:before{
     text-align: center;
     align-items: center;
     border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 120px;
+    margin: 40px auto 120px auto;
 }
 .banner-title{
     font-weight: 700;
@@ -174,7 +165,7 @@ li.reasons:before{
     border-radius: 5px;
 }
 .web-bottom{
-    width:auto;
+    width: auto;
     height: 60vh;
     background-color: #000000;
     justify-content: center;
@@ -184,7 +175,7 @@ li.reasons:before{
  
 }
 .bottom-container{
-    display:flex;
+    display: flex;
     gap: 30%;
 }
 .future{
@@ -212,8 +203,8 @@ li.reasons:before{
 }
 .subscribe{
     text-align: left;
-    height:30vh;
-    width:22%;
+    height: 30vh;
+    width: 22%;
     padding-top: 6%;
     padding-left: 8%;
 }
@@ -254,18 +245,18 @@ li.reasons:before{
 }
 .education{
     width: 700px;
-    height:auto;
+    height: auto;
     display: flex;
     padding: 1px 10px;
-    align-items:baseline;
-    margin:auto;
+    align-items: baseline;
+    margin: auto;
     gap: 0px;
     border-bottom: 1px solid black;
 }
 .education-title{
     font-size: 50px;
-    width:auto;
-    height:auto;
+    width: auto;
+    height: auto;
     padding-bottom: 30px;
 }
 .education img{
@@ -298,8 +289,8 @@ li.reasons:before{
     display: flex;
     flex-direction: column;
     width: 700px;
-    height:auto;
-    align-items:baseline;
-    margin:auto;
+    height: auto;
+    align-items: baseline;
+    margin: auto;
     gap: 0px;
 }
