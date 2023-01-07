@@ -160,3 +160,73 @@ li.reasons:before{
     border-style: none;
     border-radius: 5px;
 }
+.web-bottom{
+    width:auto;
+    height: 70vh;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    color: white;    
+}
+.bottom-container{
+    display:flex;
+    gap: 40%;
+}
+.future{
+    text-align: left;
+    height:40vh;
+    width:22%;
+    padding: 8%;
+}
+.future-title{
+    font-size: 45px;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+.future-description{
+    font-size: 15px;
+    padding: 10px 20px;
+    line-height: 25px;
+}
+.future-social-media{
+    display:flex;
+    gap: 15px;
+    padding: 20px 20px;
+}
+.subscribe{
+    text-align: left;
+    height:40vh;
+    width:22%;
+    padding-top: 10%;
+}
+.subscribe-title{
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+#subscriber-email[type=email] {
+    background-color: black;
+    color: #F3F3F3;
+    padding: 10px;
+    font-size: 20PX;
+    border-color: WHITE;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 20%;
+}
+.subscribe-button{
+    color: orangered;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 50px;
+    justify-items: left;
+    display: flex;
+    margin-top: 20px;
+    border-style: none;
+    border-radius: 5px;    
+}
