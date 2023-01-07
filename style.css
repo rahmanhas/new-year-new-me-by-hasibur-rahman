@@ -126,3 +126,37 @@ li.reasons:before{
     color: #737272;
     padding-top: 10px;
 }
+.banner{
+    width:60%;
+    height: 30vh;
+    background-image: linear-gradient(to right, #d91212, #ffffff00), url("./images/watch.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-top: 60px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 50px;
+    height: 60px;
+    width: 700px;
+    justify-items: left;
+    text-align: left;
+    padding: 30px 50px;
+}
+.banner-button{
+    color: orangered;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 20px 50px;
+    justify-items: left;
+    display: flex;
+    margin: 50px;
+    border-style: none;
+    border-radius: 5px;
+}
